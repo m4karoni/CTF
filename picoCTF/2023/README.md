@@ -2,7 +2,7 @@
 
 ## Categories
 
-### General Skills
+### General Skills [a link](https://github.com/CTF/edit/main/picoCTF/2023/README.md/general-skills)
 ### Forensics
 ### Cryptography
 ### Web
