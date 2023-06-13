@@ -8,7 +8,7 @@ The challenge has given a [ctf.gif](https://github.com/m4karoni/CTF/assets/70287
   
 In my experience, Photoshop is always a go to for me when dealing with gif files, and so I did.
   
-![image](https://github.com/m4karoni/CTF/assets/70287409/330bf31b-7bbe-4519-80bc-53ee1764cc1c)  
+[![image](https://user-images.githubusercontent.com/70287409/245427588-330bf31b-7bbe-4519-80bc-53ee1764cc1c.png)](#)  
 In photoshop, these gifs are layers of different images that just repeat in a loop, so I used the Clone Stamp Tool to try to "erase" the drawings
 ![image](https://github.com/m4karoni/CTF/assets/70287409/a38fbd42-5d31-4c7c-b4b4-052646f95ae8)
   
