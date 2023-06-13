@@ -15,6 +15,7 @@ After you've done it, it will be something like this
 It is the closest that I can do.  
 It still have a little smudge on it but it's sufficient to read the qr code.
   
+<hr>  
   
 # ow(Volume Warning)
   
