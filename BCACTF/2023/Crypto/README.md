@@ -28,6 +28,8 @@
 
   code = ' '.join([txt[i:i+n] for i in range(0,len(txt),8)])
 
+  # adding spaces in between 8 characters
+  
   print(code)
   ```
     
