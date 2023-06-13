@@ -50,7 +50,7 @@
   <details>
     <summary>So I turned the replacing around and translated it again, and got this </summary>
       
-    ![image](https://github.com/m4karoni/CTF/assets/70287409/b73e73ab-70a8-4b9f-bb21-14c64dbd72d5)
+![image](https://github.com/m4karoni/CTF/assets/70287409/b73e73ab-70a8-4b9f-bb21-14c64dbd72d5)
 
   </details>
   
