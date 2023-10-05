@@ -5,17 +5,20 @@ A category where you typically Google your way to get your flag
 ## Contents
 - [money-ware](#money-ware)
 - [repetitions](#repetitions)
-- chrono
+- [chrono](#chrono)
 - Permissions
 - useless
 - Special
 
 <hr>
 
-### money-ware
-[![image](https://user-images.githubusercontent.com/70287409/228513250-dec6565b-088d-4c0b-be48-0b28a8697502.png)](#)  
-The challenge was to find the name of the Malware and the description gave us some hint about some Bitcoin wallet address `1Mz7153HMuxXTuR2R1t78mGSdzaAtNbBWX`  
+## money-ware  
   
+### Challenge description
+[![image](https://user-images.githubusercontent.com/70287409/228513250-dec6565b-088d-4c0b-be48-0b28a8697502.png)](#Challenge%20description)  
+The challenge was to find the name of the Malware and the description gave us some hint about some Bitcoin wallet address `1Mz7153HMuxXTuR2R1t78mGSdzaAtNbBWX`  
+
+### 
 [![image](https://user-images.githubusercontent.com/70287409/228514495-db1975d0-510d-43c7-8415-0590e8352924.png)](#)  
 The first hint of the challenge suggests that it has something to do with crypto-curreny abuse databases  
   
@@ -31,10 +34,13 @@ After some digging, I found out that the Ransomeware associated with the address
   
 <hr>  
   
-### repetitions  
-[![image](https://user-images.githubusercontent.com/70287409/228523307-1fb5e100-e53a-4afe-8755-feeb695cb200.png)](#)  
+## repetitions  
+  
+### Challenge description  
+[![image](https://user-images.githubusercontent.com/70287409/228523307-1fb5e100-e53a-4afe-8755-feeb695cb200.png)](#challenge%20description)  
 The challenge has an [attachment](https://artifacts.picoctf.net/c/472/enc_flag) for challengers to download  
   
+### 
 [![image](https://user-images.githubusercontent.com/70287409/228523728-4e04b686-9740-4905-bc99-aa2cfa20babb.png)](#)  
 After opening the file, we can see that it is a string of encoded message. Based on the ending "==" characters, it has a high possibility to be base64 encoded  
   
@@ -60,5 +66,38 @@ __Note: I'm pretty sure you can run through a script to decrypt base64 until the
 
 <hr>  
   
-### chrono
-[![image](https://github.com/m4karoni/CTF/assets/70287409/5ac4694b-756f-4356-beb5-e1ca31eeeb3f)]()
+## chrono  
+
+### Challenge description
+[![image](https://github.com/m4karoni/CTF/assets/70287409/9c570384-3c71-48c2-aa9c-be69b7446d63)](#Challenge%20description)  
+The challenge requires the challenger to connect to the limited-time instance with ssh and provided credentials  
+
+### chrono_t1  
+[![image](https://github.com/m4karoni/CTF/assets/70287409/5fa9b30b-9faa-4088-b69c-1736ee013b00)](#chrono_t1)  
+After checking with the help file from ssh, we can connect to the instance with the command:  
+`ssh saturn.picoctf.net -p <port> -l <login_name>`  
+[![image](https://github.com/m4karoni/CTF/assets/70287409/f1499863-27be-4b68-937c-59991c739eba)](#chrono_t1)  
+First time conncting to an unknown host will be prompted wether to add the domain into known host, just type 'yes' and connect with the given password.  
+
+I do know that cron is used to schedule tasks on Linux machine, and so I googled how to check tasks if there are any on this [website](https://phoenixnap.com/kb/how-to-list-display-view-all-cron-jobs-linux).  
+### 1st command  
+`crontab -l`  
+[![image](https://github.com/m4karoni/CTF/assets/70287409/f41fd8dc-378b-49ca-85fc-6704be9d2e5b)](#1st%20command)  
+System shows that there are no jobs... weird :\  
+
+### 2nd command  
+`less /etc/crontab`
+[![image](https://github.com/m4karoni/CTF/assets/70287409/9e5acbf9-2f5e-456f-9f43-af89f4cbe3c0)](#2nd%20command)  
+System does not recognise the syntax `less`  
+
+Let's try `cat` command  
+[![image](https://github.com/m4karoni/CTF/assets/70287409/3310913c-6aba-4ace-9857-121948a20195)](#2nd%20command)  
+Ah ha, Just as I expected! [Solved!]  
+  
+<hr>  
+  
+##  Permissions  
+
+### Challenge description  
+[![image](https://github.com/m4karoni/CTF/assets/70287409/663f290c-0a1f-4524-bf8c-48710da0aa5e)](#Challenge%20description)  
+The challenge requires the challenger to connect to the limited-time instance with ssh and provided credentials  
