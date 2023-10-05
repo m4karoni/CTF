@@ -57,3 +57,8 @@ __And finally, the flag is decoded [Solved!]__
 [![image](https://user-images.githubusercontent.com/70287409/228525435-ceb6e34f-cd60-40a8-86f3-fc5486a3d342.png)](#)
   
 __Note: I'm pretty sure you can run through a script to decrypt base64 until the plaintext is shown, but I'm not the best script kid out there so I'm not gonna do it :P__
+
+<hr>  
+  
+### chrono
+[![image](https://github.com/m4karoni/CTF/assets/70287409/5ac4694b-756f-4356-beb5-e1ca31eeeb3f)]()
