@@ -100,7 +100,7 @@ Ah ha, Just as I expected! [Solved!]
 
 ### Challenge description  
 <picture>
-  <img alt="Challenge description" src="https://github.com/m4karoni/CTF/assets/70287409/663f290c-0a1f-4524-bf8c-48710da0aa5e">
-</picture>
+  <img title="Challenge description" src="https://github.com/m4karoni/CTF/assets/70287409/663f290c-0a1f-4524-bf8c-48710da0aa5e">
+</picture>  
 <!-- [![image](https://github.com/m4karoni/CTF/assets/70287409/663f290c-0a1f-4524-bf8c-48710da0aa5e)](#Challenge%20description)  -->
 The challenge requires the challenger to connect to the limited-time instance with ssh and provided credentials  
