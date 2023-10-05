@@ -6,7 +6,7 @@ A category where you typically Google your way to get your flag
 - [money-ware](#money-ware)
 - [repetitions](#repetitions)
 - [chrono](#chrono)
-- Permissions
+- [Permissions](#Permissions)
 - useless
 - Special
 
@@ -86,7 +86,7 @@ I do know that cron is used to schedule tasks on Linux machine, and so I googled
 System shows that there are no jobs... weird :\  
 
 ### 2nd command  
-`less /etc/crontab`
+`less /etc/crontab`  
 [![image](https://github.com/m4karoni/CTF/assets/70287409/9e5acbf9-2f5e-456f-9f43-af89f4cbe3c0)](#2nd%20command)  
 System does not recognise the syntax `less`  
 
@@ -102,6 +102,7 @@ Ah ha, Just as I expected! [Solved!]
 <picture>
   <img title="Challenge description" src="https://github.com/m4karoni/CTF/assets/70287409/663f290c-0a1f-4524-bf8c-48710da0aa5e">
 </picture>  
+<p></p>
   
 <!-- [![image](https://github.com/m4karoni/CTF/assets/70287409/663f290c-0a1f-4524-bf8c-48710da0aa5e)](#Challenge%20description)  -->
-<p>The challenge requires the challenger to connect to the limited-time instance with ssh and provided credentials  </p>
+The challenge requires the challenger to connect to the limited-time instance with ssh and provided credentials  
